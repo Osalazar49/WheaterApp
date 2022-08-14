@@ -1,0 +1,68 @@
+body{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+    
+
+}
+
+
+
+.App  {
+ 
+    background-color: gainsboro;
+    
+    margin: 5rem;
+   padding-top: 6rem;
+    width: 50vw;
+    height: 75vh;
+    border-radius: 1rem;
+    opacity: 0.9;
+    text-align: center;
+   
+
+}
+
+
+
+ .App article h1 {
+
+    color: #9A3ACE;
+    text-align: center;
+    margin-top: 10px;
+
+}
+
+.App article h2 {
+    color:#9A3ACE;
+    font-size:1em;
+    text-align: center;
+}
+
+.App article div {
+    margin-top: 2px;
+    display: flex;
+    justify-content: center;
+   
+    flex-wrap: wrap;
+    gap: 2px;
+   
+
+
+}
+
+.App article div ul {
+
+  list-style: none;
+  text-align: center;
+
+}
+
+.App article div ul li span {
+    color:#9A3ACE;
+  font-weight: 700;
+}
+
